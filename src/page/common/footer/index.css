@@ -1,0 +1,25 @@
+/*
+* @Author: victor
+* @Date:   2017-10-15 16:13:20
+* @Last Modified by:   victor
+* @Last Modified time: 2017-10-15 16:42:07
+*/
+
+.footer{
+    padding-bottom: 10px;
+}
+
+.footer .links .link{
+    padding: 0 10px;
+}
+
+.links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+
+.copyright{
+    text-align: center;
+    line-height: 30px;
+}
