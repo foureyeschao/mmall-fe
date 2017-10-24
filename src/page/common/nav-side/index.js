@@ -2,7 +2,7 @@
 * @Author: victor
 * @Date:   2017-10-18 09:33:35
 * @Last Modified by:   victor
-* @Last Modified time: 2017-10-18 10:26:27
+* @Last Modified time: 2017-10-24 13:17:14
 */
 'use strict';
 require('./index.css');
@@ -16,7 +16,7 @@ var navSide = {
         navList : [
              {name : 'user-center',    desc: 'my profil',       href: './user-center.html'},
              {name : 'order-list',     desc: 'my order',        href: './order-list.html'},
-             {name : 'pass-update',    desc: 'password',        href: './pass-update.html'},
+             {name : 'user-pass-update',    desc: 'password',        href: './user-pass-update.html'},
              {name : 'about',          desc: 'about us',           href: './about.html'}
         ]
 

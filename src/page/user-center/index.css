@@ -1,0 +1,19 @@
+/*
+* @Author: victor
+* @Date:   2017-10-22 22:26:37
+* @Last Modified by:   victor
+* @Last Modified time: 2017-10-23 22:03:54
+*/
+.form-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+.form-line .label{
+    display: inline-block;
+    width: 80px;
+    
+
+}

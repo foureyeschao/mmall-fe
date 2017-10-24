@@ -1,0 +1,24 @@
+<div class="user-info">
+    <div class="form-line">
+        <span class="label">User name:</span>
+        <span class="text">{{username}}</span>
+    </div>
+    <div class="form-line">
+        <span class="label">Phone:</span>
+        <input id="phone" class="input" autocomplete="off" value="{{phone}}" />
+    </div>
+    <div class="form-line">
+        <span class="label">Email:</span>
+        <input id="email" class="input" autocomplete="off" value="{{email}}" />
+    </div>
+    <div class="form-line">
+        <span class="label">Question:</span>
+        <input id="question" class="input" autocomplete="off" value="{{question}}" />
+    </div>
+    <div class="form-line">
+        <span class="label">Answer:</span>
+        <input id="answer" class="input" autocomplete="off" value="{{answer}}" />
+    </div>
+    
+        <span class="btn btn-submit">Save</span>
+    </div>

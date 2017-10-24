@@ -2,7 +2,7 @@
 * @Author: victor
 * @Date:   2017-10-11 16:31:04
 * @Last Modified by:   victor
-* @Last Modified time: 2017-10-12 23:09:52
+* @Last Modified time: 2017-10-18 22:09:37
 */
 'use strict';
 
@@ -82,7 +82,7 @@ var _mm = {
     
     
     doLogin : function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
 
     goHome  : function(){

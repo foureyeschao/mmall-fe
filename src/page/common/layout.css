@@ -2,7 +2,7 @@
 * @Author: victor
 * @Date:   2017-10-12 23:11:29
 * @Last Modified by:   victor
-* @Last Modified time: 2017-10-13 09:59:33
+* @Last Modified time: 2017-10-23 21:42:45
 */
 
 
@@ -42,6 +42,28 @@ input[type='checkbox'] {
     width: 1080px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+}
+
+/* panel*/
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+
+}
+
+
+.panel .panel-body{
+    padding: 10px;
     overflow: hidden;
 }
 
@@ -88,6 +110,8 @@ input[type='checkbox'] {
     font-size: 12px;
     padding: 0 10px;
 }
+
+
 
 
 /* loading */

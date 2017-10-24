@@ -2,7 +2,7 @@
 * @Author: victor
 * @Date:   2017-10-13 20:28:24
 * @Last Modified by:   victor
-* @Last Modified time: 2017-10-17 22:28:14
+* @Last Modified time: 2017-10-20 22:14:39
 */
 'use strict';
 require('./index.css');
@@ -27,15 +27,15 @@ var nav = {
 
         // register event
 
-        $('js-register').click(function(){
+        $('.js-register').click(function(){
 
-            window.location.href = './register.html';
+            window.location.href = './user-register.html';
 
         });
 
         // Logout event
 
-        $('js-logout').click(function(){
+        $('.js-logout').click(function(){
 
             _user.logout(function(res){
                 window.location.reload();

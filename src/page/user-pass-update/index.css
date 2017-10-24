@@ -1,0 +1,27 @@
+/*
+* @Author: victor
+* @Date:   2017-10-24 12:40:07
+* @Last Modified by:   victor
+* @Last Modified time: 2017-10-24 13:19:02
+*/
+.form-line{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.form-line .label{
+    display: inline-block;
+    width: 180px;
+    
+}
+
+.form-line .input{
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    font-size: 14px;
+    
+}
